@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First CSS</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+    background-color: rgb(2, 46, 47);
+   /* background-image: url("https://goodmenproject.com/wp-content/uploads/2019/08/life-lessons-600x.jpg");
+    background-position-x: 835px;
+    background-position-y: 170px;
+    background-repeat: no-repeat; */
+}
+
+#heading1{
+   text-align: center; 
+   letter-spacing: 10px;
+   color: rgb(255, 255, 255);
+   font-size: xxx-large;
+   text-transform: uppercase;
+   text-decoration:underline;
+}
+
+#heading2{
+   color: rgb(255, 255, 255); 
+   font-size: xx-large;
+   margin-left: 100px;
+}
+
+.span1{
+    color: rgb(255, 255, 99);
+    font-size: xx-large;
+}
+
+.box{
+    margin-left: 0px;
+}
+
+.span2{
+  color: wheat;
+  font-size: large;
+}
+
+#image1{
+    width: 830px;
+    height: 400px;
+}
+
+/* #divider{
+    border-right: solid white;
+    height: 1000px;
+    margin-top: 0px;
+} */
+
+#label1{
+    color: beige;
+    font-size: medium;
+}
+
+#table1{
+    margin-left: 1000px;
+    color: lightcyan;
+    border-width: thin;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+#table1{
+    
+}
+  </style>
+  <title> Life Lessons by Ayush </title> 
+ 
+</head>
+<body>
+    <div id="divider"></div>
+    <p id="heading1">Life Lessons by Ayush</p><br>
+
+    <div id="Regn" class="Tabs">
+    <p id="heading2">Pls fill the form to register for the webinar:</p><br>
+  
+    <form action="">
+        <span class="span1">Name: </span><input class="box" type="text" placeholder="BLOCK LETTERS">
+        <br>
+        <span class="span1">Contact: </span><input type="number" class="box">
+        <br>
+        <span class="span1">Email: </span><input class="box" type="text" placeholder="">
+        <br>
+        <span class="span1">Gender: </span>
+        <select name="" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br><br><br>
+        <textarea name="" id="textarea1" cols="100" rows="10" placeholder="What question do you want us to answer in the webinar?" maxlength="120"></textarea>
+        <br><br>
+        <span class="span1">Preferred application: </span>
+        <select name="" id="">
+            <option value="App1">Zoom</option>
+            <option value="App2">Microsoft Teams</option>
+            <option value="App3">Google Meet</option>
+            <option value="App4">Webex</option>
+        </select>
+        <br>
+        <span class="span1">Preferrable timings:<classpan>
+        <input name="Timings" type="radio"><span class="span2">9-10am</span>
+        <input name="Timings" type="radio"><span class="span2">12-2pm</span>
+        <input name="Timings" type="radio"><span class="span2">3-5pm</span>
+        <input name="Timings" type="radio"><span class="span2">7-9pm</span>
+    </form>
+    <br><br>
+    <img id="image1" src="https://c4.wallpaperflare.com/wallpaper/515/443/654/quote-stickers-wallpaper-preview.jpg" alt="Life_Lessons">
+    <br>
+    <form action="submit">
+        <input id="checkbox" type="checkbox"><label id="label1" for="checkbox">I agree to the terms and conditions.</label>
+        <br>
+        <input type="submit">
+    </form>
+    </div>
+
+
+ 
+
+</body>
+</html>
